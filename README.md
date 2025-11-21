@@ -1,5 +1,26 @@
-<<<<<<< HEAD
 
+# CraftPal
+
+**Overview**
+- **Project:** CraftPal — a full-stack marketplace and community platform for makers to track materials, manage projects, sell products, and connect with other creators.
+- **Repo layout:** `backend/` (Express + MongoDB API) and `frontend/` (React + Vite UI).
+
+**Live Demo**
+- **Frontend (Production):** https://your-frontend-demo.example  <!-- replace with your frontend URL -->
+- **Backend (API):** https://your-backend-demo.example  <!-- replace with your backend URL -->
+
+If you have deployed to Vercel/Netlify/Render, replace the placeholders above with the actual URLs.
+
+**Features**
+- **Authentication:** Email / JWT-based auth and Google sign-in hooks present.
+- **Marketplace:** List and browse products and materials.
+- **Community:** Posts and video sharing.
+- **Finance & Projects:** Track expenses, transactions, and project progress.
+- **AI Assistant:** Integrated AI tools (OpenAI) for creative assistance.
+
+**Tech Stack**
+- **Frontend:** React, Vite, Tailwind CSS, React Router, Axios
+- **Backend:** Node.js, Express, MongoDB (Mongoose), JWT, bcrypt
 # CraftPal
 
 **Overview**
@@ -93,65 +114,12 @@ node src/seed.js
 - Fork the repo, create a feature branch, and open a PR with a clear description. Keep changes focused and add documentation for new public behavior.
 
 **License**
-- This project does not include a license file. Add a `LICENSE` (e.g., MIT) if you intend to make it open source.
+- Licensed under the MIT License. See the `LICENSE` file for details.
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Contact / Maintainers**
-- If you want help deploying or want me to add CI/deployment configs, reply here with your target provider and I can add them.
+- **Maintainer:** `arynjeri` — GitHub: https://github.com/arynjeri
+- **Support & issues:** Open an issue in this repository for bugs, questions, or feature requests.
+- **Contributions:** PRs welcome — fork the repo, create a branch, and open a pull request. Please include a clear description and tests/notes for public-facing changes.
 
----
 
-Replace the demo placeholders above with your actual production URLs once available. If you'd like, I can add deploy configuration for Vercel/Netlify/Render and wire the exact demo links into this README.
-=======
-# MERN Stack Capstone Project
-
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
-
-## Assignment Overview
-
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
-
-## Getting Started
-
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
-
-## Files Included
-
-- `Week8-Assignment.md`: Detailed assignment instructions
-
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
-
-## Project Ideas
-
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
-
-## Submission
-
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
->>>>>>> second/main
