@@ -6,8 +6,8 @@
 - **Repo layout:** `backend/` (Express + MongoDB API) and `frontend/` (React + Vite UI).
 
 **Live Demo**
-- **Frontend (Production):** https://your-frontend-demo.example  <!-- replace with your frontend URL -->
-- **Backend (API):** https://your-backend-demo.example  <!-- replace with your backend URL -->
+- **Frontend (Production):**https://mern-final-project-arynjeri-dz4j.vercel.app/ 
+- **Backend (API):**https://mern-final-project-arynjeri.onrender.com/
 
 If you have deployed to Vercel/Netlify/Render, replace the placeholders above with the actual URLs.
 
