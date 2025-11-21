@@ -38,7 +38,7 @@ export default function Register() {
 
   const handleGoogleResponse = async (response) => {
     try {
-      const res = await api.post("/auth/google", {
+      const res = await api.post("/api/auth/google", {
         credential: response.credential,
       });
 
@@ -64,7 +64,7 @@ export default function Register() {
     }
 
     try {
-      const res = await api.post("/auth/register", {
+      const res = await api.post("/api/auth/register", {
         name: form.name,
         username: form.username,
         email: form.email,

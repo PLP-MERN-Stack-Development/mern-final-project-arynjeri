@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 
 export default function Landing() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -36,18 +34,13 @@ export default function Landing() {
 
           {!isLoggedIn && (
             <nav className="space-x-4">
-              <Link
-                to="/register"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
-              >
+              {/* Disabled links for demo */}
+              <span className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg opacity-50 cursor-not-allowed">
                 Sign Up
-              </Link>
-              <Link
-                to="/login"
-                className="bg-white hover:bg-gray-100 text-blue-600 font-semibold px-6 py-3 rounded-lg shadow-lg transition"
-              >
+              </span>
+              <span className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow-lg opacity-50 cursor-not-allowed">
                 Login
-              </Link>
+              </span>
             </nav>
           )}
         </div>

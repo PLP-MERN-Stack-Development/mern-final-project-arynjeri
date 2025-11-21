@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const { register, login, googleLogin } = require("../controllers/authController");
+const authController = require("../controllers/authController");
 
-router.post("/register", register);
-router.post("/login", login);
-router.post("/google", googleLogin);
+// Auth routes
+router.post("/register", authController.register);    // POST /api/auth/register
+router.post("/login", authController.login);          // POST /api/auth/login
+router.post("/google", authController.googleLogin);  // POST /api/auth/google
 
 module.exports = router;

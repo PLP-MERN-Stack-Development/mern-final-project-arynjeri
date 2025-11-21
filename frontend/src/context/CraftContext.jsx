@@ -11,6 +11,12 @@ export const CraftProvider = ({ children }) => {
 
   // Fetch materials and projects from backend on mount
   useEffect(() => {
+      const token = localStorage.getItem("token");
+  if (!token) {
+    setLoading(false);
+    return; // do NOT fetch anything if user is not logged in
+  }
+  
     const fetchData = async () => {
       try {
         const [matRes, projRes] = await Promise.all([
